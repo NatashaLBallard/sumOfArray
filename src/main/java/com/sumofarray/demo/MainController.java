@@ -33,5 +33,3 @@ public class MainController {
 
 
 
-//https://www.programiz.com/java-programming/arrays
-
