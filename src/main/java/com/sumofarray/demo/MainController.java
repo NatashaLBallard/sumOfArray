@@ -14,11 +14,16 @@ public class MainController {
 
             int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
             int sum = 0;
+            double average;
             for (int i = 0; i < arr.length; i++)
             {
                   sum  += arr[i];
 
-            } return sum +"";
+            }
+            average = ((double)sum / (double)arr.length);
+
+            return "<b>"+"Sum:" + "</b>" + sum + " " + "<br>" +"<b>" +"Average:" + " " +"</b>" + average ;
+
 
 
         }
